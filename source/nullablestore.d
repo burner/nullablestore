@@ -30,6 +30,7 @@ private:
 	
 	struct Bar {
 		Foo foo;
+		NullableStore!Foo nsFoo;
 	}
 }
 
