@@ -1,0 +1,9 @@
+{
+	"authors": [
+		"Robert Schadek"
+	],
+	"copyright": "Copyright © 2019, Symmetry Investments",
+	"description": "A Nullable that does not actually much",
+	"license": "LGPL3",
+	"name": "nullablestore"
+}

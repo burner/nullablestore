@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/nullableref
+nullableref.so
+nullableref.dylib
+nullableref.dll
+nullableref.a
+nullableref.lib
+nullableref-test-*
+*.exe
+*.o
+*.obj
+*.lst
