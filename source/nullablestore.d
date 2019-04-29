@@ -11,6 +11,13 @@ struct NullableStore(T) {
 	alias TypeValue = T;
 }
 
+/// actually store a T
+struct WrapperStore(T) {
+	///
+	alias TypeValue = T;
+	T value;
+}
+
 version(unittest) {
 private:
 	struct Foo {
@@ -26,4 +33,8 @@ private:
 unittest {
 	Bar b;
 	Foo f;
+}
+
+unittest {
+	WrapperStore!Foo f;
 }
